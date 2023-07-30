@@ -84,8 +84,37 @@ p {
 .project-content {
   margin: 20px 10px 20px 30px;
 }
-.interest-project-image {
-  margin-top: 20px;
+.passion-project-image {
+  margin: 20px 0px auto 20px;
   max-width: 100%;
   height: auto;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 46px;
+
+  }
+  h2 {
+    font-size: 38px;
+    text-align: center;
+  }
+  .top-section {
+    padding: 80px 20px 60px 20px;
+  }
+  .top-section h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .top-section p {
+    font-size: 22px;
+  }
+  .intro-text {
+    margin: 0 10px
+  }
+  .project-content {
+    text-align: center;
+  }
+ 
 }
