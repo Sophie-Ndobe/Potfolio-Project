@@ -9,6 +9,8 @@ h1 {
   font-family: var(--heading-font);
   font-size: 96px;
   font-weight: bold;
+  line-height: 110px;
+  margin-bottom: 25px;
 }
 
 .head {
@@ -20,7 +22,7 @@ h1 {
 .head h2 {
   font-size: 24px;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1;
   font-family: var(--content-font);
   color: var(--secondary-color);
 }
