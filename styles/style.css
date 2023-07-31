@@ -25,6 +25,10 @@ p {
 }
 .navbar-background {
   background: #dcf6ff;
+  padding: 10px;
+}
+.navbar-nav {
+  margin-left: 200px;
 }
 .top-section {
   text-align: center;
@@ -96,7 +100,6 @@ p {
   h1 {
     font-size: 44px;
     line-height: 46px;
-
   }
   h2 {
     font-size: 38px;
@@ -114,10 +117,9 @@ p {
     font-size: 22px;
   }
   .intro-text {
-    margin: 0 10px
+    margin: 0 10px;
   }
   .project-content {
     text-align: center;
   }
- 
 }
