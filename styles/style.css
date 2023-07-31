@@ -117,27 +117,34 @@ footer {
   margin: 0px 150px;
 }
 
-.about-top-section {
+.page-content {
   padding: 160px 20px;
 }
-.about-top-section h1 {
+.page-content h1 {
   font-size: 64px;
   line-height: 90px;
 }
-.about-top-section h2 {
+.page-content h2 {
   font-size: 18px;
   font-weight: bold;
   font-family: var(--content-font);
   margin-bottom: 20px;
 }
-.about-top-section p {
+.page-content p {
   margin-bottom: 40px;
 }
-.about-top-section img {
+.page-content img {
   border-radius: 10px;
   display: block;
   margin: auto;
 }
+.page-content h4 {
+  color: #000000;
+}
+.hobbie-project {
+  margin-top: 120px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -164,13 +171,12 @@ footer {
   .project-content {
     text-align: center;
   }
-  .about-top-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-.see-work {
-  display:block;
-  margin:auto 90px 30px 90px;
-  
-}
+  .page-content {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .see-work {
+    display: block;
+    margin: auto 90px 30px 90px;
+  }
 }
