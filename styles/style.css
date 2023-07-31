@@ -116,6 +116,28 @@ footer {
 .lets-talk-button {
   margin: 0px 150px;
 }
+
+.about-top-section {
+  padding: 160px 20px;
+}
+.about-top-section h1 {
+  font-size: 64px;
+  line-height: 90px;
+}
+.about-top-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--content-font);
+  margin-bottom: 20px;
+}
+.about-top-section p {
+  margin-bottom: 40px;
+}
+.about-top-section img {
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -142,4 +164,13 @@ footer {
   .project-content {
     text-align: center;
   }
+  .about-top-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+.see-work {
+  display:block;
+  margin:auto 90px 30px 90px;
+  
+}
 }
