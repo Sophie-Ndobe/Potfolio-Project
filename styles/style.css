@@ -10,7 +10,11 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4, 
+footer,
+.btn-contact:hover,
+.btn-branding-outline:hover {
   color: #000000;
 }
 h1 {
@@ -33,23 +37,44 @@ p {
   line-height: 30px;
 }
 footer {
-  color: #000000;
   font-size: 12px;
 }
-.navbar-background {
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-bar ul {
+  padding: 0;
+  margin: 0;
+}
+.navigation-bar li {
+  display: inline;
+  text-decoration: none;
+  line-height: 75px;
+  margin-left: 20px;
+}
+.navigation-bar a {
+  text-decoration: none;
+  color: var(--content-font);
+}
+.navigation-bar a:hover,
+.navigation-bar .active {
+  color: var(--primary-color);
+}
+
+.navigation-background {
   background: #dcf6ff;
-  padding: 10px;
+  padding: 0px;
 }
-.navbar-nav {
-  margin-left: 350px;
-}
-.top-section {
+
+.top-section-content {
   text-align: center;
   padding: 100px 20px;
   background: var(--tertiary-color);
 }
 
-.top-section h2 {
+.top-section-content h2 {
   font-size: 24px;
   font-weight: normal;
   line-height: 1;
@@ -57,7 +82,7 @@ footer {
   color: var(--secondary-color);
 }
 
-.top-section p {
+.top-section-content p {
   font-family: var(--content-font);
   font-size: 36px;
   font-weight: bold;
@@ -73,7 +98,6 @@ footer {
 }
 .btn-contact:hover {
   background: var(--primary-color);
-  color: black;
 }
 .weather-app-image {
   display: block;
@@ -89,7 +113,6 @@ footer {
 }
 .btn-branding-outline:hover {
   border: 1px solid var(--primary-color);
-  color: black;
 }
 
 .coding-icons {
@@ -139,7 +162,6 @@ footer {
   margin: auto;
 }
 .page-content h4 {
-  color: #000000;
   font-weight: bold;
 }
 .hobbie-project {
@@ -147,7 +169,7 @@ footer {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  .top-section-content h1, .page-content h1 {
     font-size: 44px;
     line-height: 46px;
   }
@@ -155,17 +177,20 @@ footer {
     font-size: 38px;
     text-align: center;
   }
-  .top-section {
+  .top-section-content {
     padding: 80px 20px 60px 20px;
   }
-  .top-section h2 {
+  .top-section-content h2 {
     font-size: 18px;
     line-height: 24px;
   }
-
-  .top-section p {
+  .page-content h3 {
+    font-size: 30px;
+  }
+  .top-section-content p {
     font-size: 22px;
   }
+
   .intro-text {
     margin: 0 10px;
   }
@@ -180,4 +205,12 @@ footer {
     display: block;
     margin: auto 90px 30px 90px;
   }
+  .hobbie-project {
+  margin-top: 40px;
+}
+.navigation-bar ul {
+  display: block;
+  margin:auto
+}
+ 
 }
