@@ -11,7 +11,7 @@ body {
 h1,
 h2,
 h3,
-h4, 
+h4,
 footer,
 .btn-contact:hover,
 .btn-branding-outline:hover {
@@ -132,13 +132,6 @@ footer {
   max-width: 100%;
   height: auto;
 }
-.work-enquiry {
-  background: #dcf6ff;
-  padding: 30px 0px;
-}
-.lets-talk-button {
-  margin: 0px 150px;
-}
 
 .page-content {
   padding: 160px 20px;
@@ -168,8 +161,56 @@ footer {
   margin-top: 120px;
 }
 
+footer {
+  margin: 100px 0 60px 0;
+}
+
+footer .background {
+  background: var(--tertiary-color);
+  border-radius: 10px;
+}
+
+footer h3 {
+  padding: 20px 0 15px 50px;
+}
+footer p {
+  padding-left: 50px;
+  color: var(--secondary-color);
+  opacity: 70%;
+}
+
+footer .contact-button-link {
+  margin: 40px 160px;
+}
+footer .email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  margin: 30px 0 50px 0;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-link {
+  text-align: center;
+  font-size: 20px;
+}
+footer .social-link a {
+  background-color: var(--tertiary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: var(--primary-color);
+}
+footer .social-link a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
 @media (max-width: 900px) {
-  .top-section-content h1, .page-content h1 {
+  .top-section-content h1,
+  .page-content h1 {
     font-size: 44px;
     line-height: 46px;
   }
@@ -206,11 +247,10 @@ footer {
     margin: auto 90px 30px 90px;
   }
   .hobbie-project {
-  margin-top: 40px;
-}
-.navigation-bar ul {
-  display: block;
-  margin:auto
-}
- 
+    margin-top: 40px;
+  }
+  .navigation-bar ul {
+    display: block;
+    margin: auto;
+  }
 }
